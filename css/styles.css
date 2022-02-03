@@ -1,0 +1,81 @@
+body {
+    background-color: #EEE6CE;
+    color: #313552;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive; 
+    
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.selfie {
+    width: 250px;
+    border-radius: 100%;
+    margin: 30px auto;
+}
+
+.top-container {
+    background-color: #61BBB6;
+    margin: 0px;
+    position: relative;
+    /* margin-left: 0px;
+    margin-right: 0px; */
+}
+.romanSmolnyk {
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 10%;
+    font-size: 5rem;
+    /* margin-left: 0px;
+    margin-right: 0px; */
+}
+
+.mountain {
+    width: 950px;
+    display: block;
+    margin: 0 auto;
+    /* display: inline-block; */
+    /* position: absolute; */
+    /* left: 25%; */
+} 
+.cloud0 {
+    width: 140px;
+    /* display: inline-block; */
+    position: absolute;
+    top: 5%;
+    left: 30%;
+}
+.cloud1 {
+    width: 170px;
+    /* display: inline-block; */
+    position: absolute;
+    bottom: 25%;
+    left: 20%;
+}
+
+.cloud2 {
+    width: 250px;
+    /* display: inline-block; */
+    position: absolute;
+    bottom: 38%;
+    right: 26%;
+}
