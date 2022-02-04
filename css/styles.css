@@ -7,75 +7,140 @@ body {
 }
 
 h1 {
-    font-family: 'Sacramento', cursive; 
-    
+    font-family: 'Sacramento', cursive;
+    color: #ff4155;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
+    color: #ff4155;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
+    color: #ff4155;
 }
 
 h4 {
     font-family: 'Montserrat', sans-serif;
+    color: #ff4155;
 }
 
 h5 {
     font-family: 'Montserrat', sans-serif;
+    color: #ff4155;
 }
 
-.selfie {
-    width: 250px;
-    border-radius: 100%;
-    margin: 30px auto;
-}
-
-.top-container {
+.head {
     background-color: #61BBB6;
     margin: 0px;
     position: relative;
-    /* margin-left: 0px;
-    margin-right: 0px; */
+    /* display:inline-block; */
+    min-width: 500px;
+    left: 50%;
+    transform:translateX(-50%);
 }
 .romanSmolnyk {
-    width: 300px;
+    color: #313552;
+    min-width: 150px;
+    max-width: 16%;
     margin: 0 auto;
-    padding-top: 10%;
-    font-size: 5rem;
-    /* margin-left: 0px;
-    margin-right: 0px; */
+    padding-top: 5%;
+    /* font-size: 5rem; */
+    font-size: calc(3vw + 3vh);
+}
+
+.developer {
+    color: #313552;
+    padding: 1%;
+    min-width: 30%;
+    margin: 0 auto;
+    font-size: calc(0.9vw + 0.9vh);
 }
 
 .mountain {
-    width: 950px;
+    width: 55%;
     display: block;
     margin: 0 auto;
-    /* display: inline-block; */
-    /* position: absolute; */
-    /* left: 25%; */
 } 
 .cloud0 {
-    width: 140px;
-    /* display: inline-block; */
+    width: 10%;
     position: absolute;
     top: 5%;
     left: 30%;
 }
 .cloud1 {
-    width: 170px;
-    /* display: inline-block; */
+    width: 12%;
     position: absolute;
-    bottom: 25%;
-    left: 20%;
+    bottom: 21%;
+    left: 22%;
 }
 
 .cloud2 {
-    width: 250px;
-    /* display: inline-block; */
+    width: 20%;
     position: absolute;
-    bottom: 38%;
+    bottom: 30%;
     right: 26%;
 }
+
+.skill-row {
+    width: 50%;
+    margin: 50px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.avatar {
+    width: 18%;
+    min-width: 150px;
+    border-radius: 100%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+/* .python-dev {
+    
+} */
+
+.coder-gif {
+    width: 35%;
+    min-width: 200px;
+    max-width: 250px;
+    border-radius: 20%;
+    float: left;
+    margin-right: 50px;
+}
+.coder-gif2 {
+    width: 30%;
+    min-width: 200px;
+    max-width: 250px;
+    border-radius: 20%;
+    float: right;
+    margin: 0 20px;
+}
+
+/* .coder {
+    text-align: center;
+} */
+
+.contact-me {
+    display: block;
+    color: #313552;
+    background-color: #61BBB6;
+    margin: 0px;
+    padding: 10px;
+}
+
+.button {
+    background-color: #313552;
+    color: #ff4155;
+    border: none;
+    color: white;
+    border-radius:  12px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
