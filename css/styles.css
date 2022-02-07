@@ -38,8 +38,9 @@ h5 {
     /* display:inline-block; */
     min-width: 500px;
     left: 50%;
-    transform:translateX(-50%);
+    transform: translateX(-50%);
 }
+
 .romanSmolnyk {
     color: #313552;
     min-width: 200px;
@@ -62,13 +63,15 @@ h5 {
     width: 65%;
     display: block;
     margin: 0 auto;
-} 
+}
+
 .cloud0 {
     width: 10%;
     position: absolute;
     top: 5%;
     left: 30%;
 }
+
 .cloud1 {
     width: 12%;
     position: absolute;
@@ -110,6 +113,7 @@ h5 {
     float: left;
     margin-right: 50px;
 }
+
 .coder-gif2 {
     width: 30%;
     min-width: 200px;
@@ -137,11 +141,10 @@ h5 {
     color: #ff4155;
     border: none;
     color: white;
-    border-radius:  12px;
+    border-radius: 12px;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-  }
-
+}
