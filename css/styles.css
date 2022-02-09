@@ -1,150 +1,65 @@
 body {
-    background-color: #EEE6CE;
-    color: #313552;
-    margin: 0;
-    text-align: center;
-    font-family: 'Merriweather', serif;
+
+    /* font-family: 'Ubuntu', sans-serif; */
 }
 
-h1 {
-    font-family: 'Sacramento', cursive;
-    color: #ff4155;
+.container-fluid {
+    padding: 3% 15%;
 }
 
-h2 {
-    font-family: 'Montserrat', sans-serif;
-    color: #ff4155;
+
+#title {
+    /* text-align: center; */
+    background-color: mediumpurple;
 }
 
-h3 {
-    font-family: 'Montserrat', sans-serif;
-    color: #ff4155;
+.navbar {
+    padding: 0 0 4.5rem;
+    padding-bottom: 4.5rem;
 }
 
-h4 {
-    font-family: 'Montserrat', sans-serif;
-    color: #ff4155;
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
 }
 
-h5 {
-    font-family: 'Montserrat', sans-serif;
-    color: #ff4155;
+.nav-item {
+    padding: 0px 12px;
 }
 
-.intro {
-    background-color: #61BBB6;
-    margin: 0px;
-    position: relative;
-    /* display:inline-block; */
-    min-width: 500px;
-    left: 50%;
-    transform: translateX(-50%);
+.nav-link {
+    font-family: "Montserrat Light", sans-serif;
 }
 
-.romanSmolnyk {
-    color: #313552;
+.h1-1 {
+    font-family: "Montserrat Black", sans-serif;
+    /* font-weight: 900; */
+    /* font-size: 3rem; */
+    font-size: calc(15px + 3vw);
+    line-height: 1.5;
+
+}
+
+.download-button {
+    margin: 5% 3% 5%;
+    /* margin-bottom: 10%; */
+}
+
+
+.iphone-mockup {
+    width: 60%;
     min-width: 200px;
-    max-width: 23%;
-    margin: 0 auto;
-    padding-top: 5%;
-    /* font-size: 5rem; */
-    font-size: calc(4vw + 4vh);
+    transform: rotate(20deg);
 }
 
-.developer {
-    color: #313552;
-    padding: 1%;
-    min-width: 40%;
-    margin: 0 auto;
-    font-size: calc(0.9vw + 0.9vh);
-}
-
-.mountain {
-    width: 65%;
-    display: block;
-    margin: 0 auto;
-}
-
-.cloud0 {
-    width: 10%;
-    position: absolute;
-    top: 5%;
-    left: 30%;
-}
-
-.cloud1 {
-    width: 12%;
-    position: absolute;
-    bottom: 21%;
-    left: 22%;
-}
-
-.cloud2 {
-    width: 20%;
-    position: absolute;
-    bottom: 30%;
-    right: 26%;
-}
-
-.skill-row {
-    width: 50%;
-    margin: 50px auto;
-    text-align: left;
-    line-height: 2;
-}
-
-.avatar {
-    width: 18%;
-    min-width: 150px;
-    border-radius: 100%;
-    margin: auto;
-    margin-top: 50px;
-}
-
-/* .python-dev {
-    
+/* .crop-container {
+    width: 200px;
+    height: 300px;
+    overflow: hidden;
 } */
 
-.coder-gif {
-    width: 35%;
-    min-width: 200px;
-    max-width: 250px;
-    border-radius: 25px;
-    float: left;
-    margin-right: 50px;
-}
-
-.coder-gif2 {
-    width: 30%;
-    min-width: 200px;
-    max-width: 250px;
-    border-radius: 25px;
-    float: right;
-    margin: 0 20px;
-}
-
-/* .coder {
-    text-align: center;
+/* .crop-container img {
+    margin-top: -100px;
+    margin-left: -200px;
 } */
-
-.contact-me {
-    display: block;
-    color: #313552;
-    background-color: #61BBB6;
-    margin: 0px;
-    padding: 10px;
-    padding-bottom: 50px;
-}
-
-.button {
-    background-color: #313552;
-    color: #ff4155;
-    border: none;
-    color: white;
-    border-radius: 12px;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-}

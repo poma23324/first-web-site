@@ -22,6 +22,7 @@
     "eslint-plugin-import": "^2.25.4"
   },
   "dependencies": {
-    "prettier": "^2.5.1"
+    "prettier": "^2.5.1",
+    "ssh2-sftp-client": "^7.2.2"
   }
 }
