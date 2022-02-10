@@ -46,18 +46,43 @@ body {
     /* margin-bottom: 10%; */
 }
 
+/* .crop-container {
+    width: 60%;
+    min-width: 300px;
+    min-height: 200px;
+    overflow: hidden;
+    padding: 0 50 0 0;
+    transform: rotate(20deg);
+} */
+
 
 .iphone-mockup {
     width: 60%;
+    margin: 50px 0px 50px 50px;
+    /* position: absolute;
+    right: 30%; */
     min-width: 200px;
-    transform: rotate(20deg);
+    
+    /* margin-left: 50px; */
+    /* max-width: 100%;
+    /* margin-top: 50px; */
+    /* margin-top: 25px; */
+    /* margin-right: 50px; */
+    /* margin-bottom: -200px; */
+    /* transform: rotate(20deg); */
+        /* position: relative;
+        bottom: -200px;
+        z-index: 99; */
 }
 
-/* .crop-container {
-    width: 200px;
-    height: 300px;
-    overflow: hidden;
-} */
+@media (min-width: 800px) {
+    .iphone-mockup {
+        transform: rotate(20deg);
+    }
+    /* CSS that should be displayed if width is equal to or less than 800px goes here */
+  }
+
+
 
 /* .crop-container img {
     margin-top: -100px;
